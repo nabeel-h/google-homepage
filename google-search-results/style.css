@@ -1,0 +1,102 @@
+#main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+
+}
+#header-logoLink {
+    margin: 0 auto;
+}
+
+#header-logo {
+    margin: 5px 0px 20px 0px;
+    flex-grow: 0.04;
+    
+}
+
+#header-searchBar {
+    margin: 20px 0px 20px 0px;
+    flex-grow: 0.95;
+    
+}
+
+#header-right img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 20px 10px 0px 0px;
+}
+
+#searchTabs {
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    justify-content: space-evenly;
+}
+
+#searchForm {
+    display:block;
+
+}
+
+#searchBar {
+    display:inline-block;
+    margin: 0 auto;
+    min-width: 570px;
+    min-height: 34px;
+}
+
+#searchButton {
+    display: inline-block;
+    min-height: 34px;
+}
+
+#results {
+    padding-left: 183px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /*align-items: center;*/
+}
+
+.result {
+    margin-bottom:40px;
+    justify-content: flex-start;
+}
+
+#searchTime {
+    color: gray;
+}
+
+.result p {
+    margin: 0;
+    padding: 0;
+}
+
+.result .resultUrl {
+    color: green;
+}
+
+.result .resultUrl {
+    color: green;
+}
+
+.result .resultHeading {
+    color: blue;
+    font-size: large;
+}
+
+#footer {
+    padding-left: 183px;
+    background-color: ;;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+
+}
